@@ -1,1 +1,13 @@
-myenv
+# Ignore virtual environment
+myenv/
+
+# Ignore Python cache files
+__pycache__/
+
+# Include dependency files
+# For pip:
+requirements.txt
+# For Pipenv:
+Pipfile.lock
+
+# Add other files and directories to ignore as needed
